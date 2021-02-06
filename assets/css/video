@@ -6,6 +6,12 @@ html,body {
 #videoBG {
     position:fixed;
     z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
 }
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
