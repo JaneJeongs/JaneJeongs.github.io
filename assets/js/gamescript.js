@@ -8,7 +8,7 @@ let gravity = 0.9
 let isGameOver = false
 
 function control(e) {
-  if (e.keyCode === 32) {
+  if (e.keyCode === 13) {
     if (!isJumping) {
       isJumping = true
       jump()
