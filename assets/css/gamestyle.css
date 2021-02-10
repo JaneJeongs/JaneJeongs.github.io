@@ -1,0 +1,44 @@
+.dino {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url("https://github.com/JaneJeongs/images-codepen/blob/main/NEWchar.png?raw=true");
+  bottom: 0px;
+}
+
+.obstacle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://github.com/JaneJeongs/images-codepen/blob/main/INTERVIEW2.png?raw=true");
+  bottom: 0px;
+}
+
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+@-webkit-keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+#desert {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('t-rex-background.png');
+  background-repeat: repeat-x;
+  animation: slideright 2000s infinite linear;
+  -webkit-animation: slideright 2000s infinite linear;
+  width: 100%;
+  height: 200px;
+}
