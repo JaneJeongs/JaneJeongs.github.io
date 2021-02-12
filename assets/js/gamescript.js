@@ -55,7 +55,7 @@ function generateObstacles() {
   let timerId = setInterval(function() {
     if (obstaclePosition > 0 && obstaclePosition < 60 && position < 60) {
       clearInterval(timerId)
-      alert.innerHTML = 'Game Over'
+      alert.innerHTML = '                 Game Over'
       isGameOver = true
       //remove all children
       body.removeChild(body.firstChild)
