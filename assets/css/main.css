@@ -2264,7 +2264,7 @@ input, select, textarea {
 
 	#two {
 		
-		background: url("images/gameBG.png"), url("images/gameBG.png");
+		background: url("https://github.com/JaneJeongs/images-codepen/blob/main/gameBG.png?raw=true"), url("https://github.com/JaneJeongs/images-codepen/blob/main/gameBG.png?raw=true");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
@@ -2323,6 +2323,11 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+		background: url("https://github.com/JaneJeongs/images-codepen/blob/main/ContactBG.png?raw=true"), url("https://github.com/JaneJeongs/images-codepen/blob/main/ContactBG.png?raw=true");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: repeat, no-repeat;
 	}
 
 		#contact .box {
